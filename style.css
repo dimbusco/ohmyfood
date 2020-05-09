@@ -1,0 +1,110 @@
+
+h1 {
+
+    color: #fdcb46;
+
+}
+
+.content1 {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+
+}
+
+.content2 {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10%;
+
+}
+
+.menu {
+
+    border: lightslategray;
+    background-color: mediumorchid;
+    margin: 1%;
+    height: 60em;
+    width: 100%;
+
+}
+
+header {
+
+    position: absolute;
+    text-align: center;
+    height: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #579c87;
+
+}
+
+.prochainement {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #579c87;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    color: #fdcb46;
+
+}
+
+
+footer {
+        
+    position: fixed;
+    height: 8%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #579c87;
+    color: #fdcb46;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.menu1 {
+
+    margin-top: 5%;
+    background-color: mediumspringgreen;
+    border: mediumseagreen;
+
+}
+
+.menu2 {
+
+    margin-top: 5%;
+    background-color: mediumslateblue;
+    border: mediumvioletred;
+
+}
+
+.menu3 {
+
+    margin-top: 5%;
+    background-color: olivedrab;
+    border: palegreen;
+
+}
+
+.menu4 {
+
+    margin-top: 5%;
+    background-color: paleturquoise;
+    border: purple;
+    
+}
