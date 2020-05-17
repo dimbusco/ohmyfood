@@ -2,13 +2,14 @@
 h1 {
 
     color: #fdcb46;
+    margin-top: 1.5%;
 
 }
 
 .content1 {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     margin-top: 10%;
 
@@ -17,19 +18,10 @@ h1 {
 .content2 {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
-    margin-bottom: 10%;
-
-}
-
-.menu {
-
-    border: lightslategray;
-    background-color: mediumorchid;
-    margin: 1%;
-    height: 60em;
-    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 2%;
 
 }
 
@@ -37,7 +29,7 @@ header {
 
     position: absolute;
     text-align: center;
-    height: 10%;
+    height: 12%;
     top: 0;
     left: 0;
     right: 0;
@@ -54,17 +46,18 @@ header {
     background-color: #579c87;
     margin-left: 30%;
     margin-right: 30%;
-    margin-bottom: 10%;
     border-radius: 10px;
     color: #fdcb46;
+    margin-top: 5%;
+    margin-bottom: 15%;
 
 }
-
 
 footer {
         
     position: fixed;
-    height: 8%;
+    height: 10%;
+    width: 100%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -72,39 +65,60 @@ footer {
     justify-content: space-between;
     background-color: #579c87;
     color: #fdcb46;
-    padding-left: 2%;
-    padding-right: 2%;
+
+}
+
+footer p:first-child {
+
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+footer p {
+
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
 
 }
 
 .menu1 {
 
-    margin-top: 5%;
-    background-color: mediumspringgreen;
-    border: mediumseagreen;
+    background-color: #fcdfdb;
+    text-align: center;
+    color: #7e585b;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .menu2 {
 
-    margin-top: 5%;
-    background-color: mediumslateblue;
-    border: mediumvioletred;
+    background-color: #fff5fe;
+    text-align: center;
+    color: #c77412;
 
 }
 
 .menu3 {
 
-    margin-top: 5%;
-    background-color: olivedrab;
-    border: palegreen;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #1b91fa;
 
 }
 
 .menu4 {
 
-    margin-top: 5%;
-    background-color: paleturquoise;
-    border: purple;
-    
+    background-color: #fdfffd;
+    text-align: center;
+    color: #72bf56;
+
 }

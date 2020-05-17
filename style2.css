@@ -1,0 +1,29 @@
+.lanoteenchantee {
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: #7e585b;
+    background-color: #fcdfdb;
+
+}
+
+
+
+.entree {
+
+    display: flex;
+
+}
+
+.plat {
+
+    display: flex;
+
+}
+
+.dessert {
+
+    display: flex;
+
+}
