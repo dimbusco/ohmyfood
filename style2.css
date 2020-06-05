@@ -1,3 +1,138 @@
+@font-face {
+    font-family: 'leckerlioneregular';
+    src: url('leckerlione-regular-webfont.woff2') format('woff2'),
+         url('leckerlione-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'redressedregular';
+    src: url('redressed-webfont.woff2') format('woff2'),
+         url('redressed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'jrhandregular';
+    src: url('jrha___-webfont.woff2') format('woff2'),
+         url('jrha___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alluraregular';
+    src: url('allura-regular-webfont.woff2') format('woff2'),
+         url('allura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+
+    font-size: 100%;
+
+}
+
+.name { 
+
+    margin-top: 15%;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+
+.fas.fa-music {
+
+    font-size: 200px;
+    background: linear-gradient(to right, #f15c61, #f6916a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h3 {
+
+    margin-top: 0;
+    font-size: 300%;
+
+}
+
+h4 {
+
+    font-size: 120%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition-duration: 2s;
+
+}
+
+h4:after {
+
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 300ms;
+
+}
+
+h4:hover:after  {
+
+    width: 100%;
+
+}
+
+img {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.barre {
+
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+}
+
+.lanoteenchantee .barre {
+
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+}
+
+.lanoteenchantee img {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.lanoteenchantee .icon {
+
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+
+}
+
 .lanoteenchantee {
 
     display: flex;
@@ -5,25 +140,316 @@
     text-align: justify;
     color: #7e585b;
     background-color: #fcdfdb;
+    margin-bottom: 16%;
+    margin-left: 7%;
+    Margin-right: 7%;
+    box-shadow: 0px 0px 3px 3px rgb(245, 241, 241);
+    font-family: 'leckerlioneregular';
 
 }
 
+.lechicalafrançaise h3 {
 
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    background: linear-gradient(to right, #e38913, #8f5bfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.lechicalafrançaise {
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: #1b91fa;
+    background-color: #f9f9f9;
+    margin-bottom: 16%;
+    margin-left: 7%;
+    margin-right: 7%;
+    box-shadow: 0px 0px 3px 3px rgb(245, 241, 241);
+    font-family: 'redressedregular';
+
+}
+
+.color1 {
+
+    color:#c67412
+
+}
+
+.color2 {
+
+    color: #a56799
+
+}
+
+.color3 {
+
+    color: #6e4ccc
+    
+}
+
+.ledelicedespapilles h3 {
+
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: #2c5be5;
+
+}
+
+.ledelicedespapilles {
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #edefef;
+    margin-bottom: 16%;
+    margin-left: 7%;
+    margin-right: 7%;
+    box-shadow: 0px 0px 3px 3px rgb(245, 241, 241);
+    font-family: 'alluraregular';
+
+}
+
+.lapalettedugout h3 {
+
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: #72bf56;
+
+}
+
+.lapalettedugout {
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #fdfffd;
+    margin-bottom: 16%;
+    margin-left: 7%;
+    margin-right: 7%;
+    box-shadow: 0px 0px 3px 3px rgb(245, 241, 241);
+    font-family: 'jrhandregular';
+
+}
+
+.fin {
+
+    margin-top: 0;
+    margin-bottom: 7%;
+    text-align: center;
+    font-size: 140%;
+
+}
+
+.fin i {
+
+    margin-right: 1%;
+
+}
+
+.fin .fas.fa-music {
+
+    font-size: 50px;
+
+}
+
+.fin p {
+
+    font-weight: bold;
+    font-size: 130%;
+
+}
 
 .entree {
 
     display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    font-size: 110%;
 
 }
 
 .plat {
 
     display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    font-size: 110%;
 
 }
 
 .dessert {
 
     display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    font-size: 110%;
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+
+    header {
+
+        height: 10%;
+        font-size: x-large;
+    
+    }
+
+    h1 {
+
+        margin-top: 3%;
+
+    }
+
+    footer {
+
+        height: 10%;
+        
+    }
+
+    .fas.fa-music {
+
+        font-size: 150px;
+        background: linear-gradient(to right, #f15c61, #f6916a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+
+    .fin .fas.fa-music {
+
+        font-size: 40px;
+
+    }
+
+    .lanoteenchantee, .lechicalafrançaise, .ledelicedespapilles, .lapalettedugout {
+
+        margin-bottom: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+
+    }
+
+    .entree, .plat, .dessert {
+
+        font-size: 75%;
+
+    }
+
+    h4 {
+
+        font-size: x-large;
+        margin-left: 10%;
+        margin-right: 10%;
+        white-space: nowrap;
+
+    }
+
+    h3 {
+        
+        font-size: 200%;
+
+    }
+
+}
+
+@media screen and (max-width: 414px) and (min-width: 319px) {
+
+
+    header {
+
+        height: 9%;
+        font-size: 110%;
+    
+    }
+
+    .name {
+
+        margin-top: 20%;
+
+    }
+
+    h1 {
+
+        margin-top: 5%;
+
+    }
+
+    .fas.fa-music {
+
+        font-size: 50px;
+        background: linear-gradient(to right, #f15c61, #f6916a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+
+    .fin .fas.fa-music {
+
+        font-size: 20px;
+
+    }
+
+    .lanoteenchantee {
+
+        font-size: 80%;
+
+    }
+
+    .entree, .plat, .dessert {
+
+        font-size: 60%;
+        margin-bottom: 4%;
+
+    }
+
+    .lanoteenchantee, .lechicalafrançaise, .ledelicedespapilles, .lapalettedugout {
+
+        margin-bottom: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+
+    }
+
+    footer {
+
+        height: 9%;
+
+    }
+
+    h4 {
+
+        font-size: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        white-space: nowrap;
+
+    }
+
+    h3 {
+        
+        font-size: 170%;
+
+    }
+
+    .fin {
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
 }
