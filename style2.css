@@ -48,23 +48,14 @@ body {
 
 }
 
-.fas.fa-music {
-
-    font-size: 200px;
-    background: linear-gradient(to right, #f15c61, #f6916a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-h3 {
+h3 {                                            /* titre des menus */
 
     margin-top: 0;
     font-size: 300%;
 
 }
 
-h4 {
+h4 {                                            /* titre des parties du menu */
 
     font-size: 120%;
     text-align: center;
@@ -74,7 +65,7 @@ h4 {
 
 }
 
-h4:after {
+h4:after {                                      /* effet soulignage auto */
 
   content: '';
   width: 0px;
@@ -91,7 +82,7 @@ h4:hover:after  {
 
 }
 
-img {
+img {                                           /* barres importés entre titres parties du menu */
 
     height: auto;
     width: 100%;
@@ -107,6 +98,8 @@ img {
     margin-bottom: 2%;
 
 }
+
+                                                /* styles du menu La Note Enchantée */
 
 .lanoteenchantee .barre {
 
@@ -133,6 +126,15 @@ img {
 
 }
 
+.fas.fa-music {
+
+    font-size: 200px;
+    background: linear-gradient(to right, #f15c61, #f6916a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 .lanoteenchantee {
 
     display: flex;
@@ -147,6 +149,37 @@ img {
     font-family: 'leckerlioneregular';
 
 }
+
+
+.fin {
+
+    margin-top: 0;
+    margin-bottom: 7%;
+    text-align: center;
+    font-size: 140%;
+
+}
+
+.fin i {
+
+    margin-right: 1%;
+
+}
+
+.fin .fas.fa-music {
+
+    font-size: 50px;
+
+}
+
+.fin p {
+
+    font-weight: bold;
+    font-size: 130%;
+
+}
+
+                                                /* style du menu Le Chic à La Française */
 
 .lechicalafrançaise h3 {
 
@@ -192,6 +225,8 @@ img {
     
 }
 
+                                                /* styles du menu Le Délice des Papilles */
+
 .ledelicedespapilles h3 {
 
     text-align: center;
@@ -215,6 +250,8 @@ img {
 
 }
 
+                                                /* styles du menu La Palette du Gout */
+
 .lapalettedugout h3 {
 
     text-align: center;
@@ -235,34 +272,6 @@ img {
     margin-right: 7%;
     box-shadow: 0px 0px 3px 3px rgb(245, 241, 241);
     font-family: 'jrhandregular';
-
-}
-
-.fin {
-
-    margin-top: 0;
-    margin-bottom: 7%;
-    text-align: center;
-    font-size: 140%;
-
-}
-
-.fin i {
-
-    margin-right: 1%;
-
-}
-
-.fin .fas.fa-music {
-
-    font-size: 50px;
-
-}
-
-.fin p {
-
-    font-weight: bold;
-    font-size: 130%;
 
 }
 
@@ -299,6 +308,8 @@ img {
 
 }
 
+                                                /* Responsive Tablette */
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
 
 
@@ -314,11 +325,20 @@ img {
         margin-top: 3%;
 
     }
-
-    footer {
-
-        height: 10%;
+    
+    h3 {
         
+        font-size: 200%;
+
+    }
+    
+    h4 {
+
+        font-size: x-large;
+        margin-left: 10%;
+        margin-right: 10%;
+        white-space: nowrap;
+
     }
 
     .fas.fa-music {
@@ -346,23 +366,14 @@ img {
 
     .entree, .plat, .dessert {
 
-        font-size: 75%;
+        font-size: 118%;
 
     }
 
-    h4 {
+    footer {
 
-        font-size: x-large;
-        margin-left: 10%;
-        margin-right: 10%;
-        white-space: nowrap;
-
-    }
-
-    h3 {
+        height: 10%;
         
-        font-size: 200%;
-
     }
 
 }
@@ -386,6 +397,21 @@ img {
     h1 {
 
         margin-top: 5%;
+
+    }
+    
+    h3 {
+        
+        font-size: 200%;
+
+    }
+    
+    h4 {
+
+        font-size: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        white-space: nowrap;
 
     }
 
@@ -412,8 +438,14 @@ img {
 
     .entree, .plat, .dessert {
 
-        font-size: 60%;
+        font-size: 49%;
         margin-bottom: 4%;
+
+    }
+
+    .prix {
+
+        padding-left: 2%;
 
     }
 
@@ -425,31 +457,17 @@ img {
 
     }
 
-    footer {
-
-        height: 9%;
-
-    }
-
-    h4 {
-
-        font-size: 100%;
-        margin-left: 10%;
-        margin-right: 10%;
-        white-space: nowrap;
-
-    }
-
-    h3 {
-        
-        font-size: 170%;
-
-    }
-
     .fin {
 
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    
+    footer {
+
+        height: 9%;
+
     }
 
 }
