@@ -76,6 +76,39 @@ h4:after {                                      /* effet soulignage auto */
 
 }
 
+.color1 h4:after {
+
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #c67412;
+    transition: 300ms;
+  
+}
+
+.color2 h4:after {
+
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #a56799;
+    transition: 300ms;
+  
+}
+
+.color3 h4:after {
+
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #6e4ccc;
+    transition: 300ms;
+  
+}
+
 h4:hover:after  {
 
     width: 100%;
